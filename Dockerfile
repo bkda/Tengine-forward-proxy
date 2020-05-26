@@ -134,7 +134,6 @@ RUN     addgroup -S nginx \
         && apk add bash ngrep 
 
 COPY nginx.conf /etc/nginx/nginx.conf
-
 EXPOSE 80 443
 
 STOPSIGNAL SIGTERM
